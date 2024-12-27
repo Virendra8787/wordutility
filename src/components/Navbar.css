@@ -1,0 +1,26 @@
+.nav-container{
+    display: flex;
+    background-color: #0d6efd;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    
+
+}
+.nav-ul ul{
+    margin-bottom: 0rem;
+    display: flex;
+    gap: 10px;
+
+}
+li{
+    list-style: none;
+}
+.form-check-label, .form-check-input{
+    cursor: pointer;
+}
+.form-check-input:checked{
+    background-color: black !important;
+}
+
