@@ -56,7 +56,7 @@ const Textform = () => {
     return (
         <>
             <div className="container mt-5">
-                <h1>Enter text below to analyze</h1>
+                <h1>Enter text below:</h1>
                 <div className="form-floating">
                     <label htmlFor="mytext"></label>
                     <textarea className="form-control" value={text} id="mytext" onChange={handleOnChange} style={{ height: 150 }}  ></textarea>
